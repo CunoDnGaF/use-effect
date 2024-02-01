@@ -1,0 +1,58 @@
+#root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.users-widget {
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  justify-content: space-between;
+}
+
+.userList {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.list-item {
+  height: 40px;
+  border: 1px solid rgb(201, 199, 199);
+  padding: 1%;
+  line-height: 40px;
+  margin-bottom: -1px;
+  cursor: pointer;
+  font-size: large;
+}
+
+.active {
+  background-color: rgb(127, 219, 255);
+  color: rgb(255, 255, 255);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.user-avatar {
+  width: 100%;
+}
+
+.details-item {
+  height: 40px;
+  border: 1px solid rgb(201, 199, 199);
+  padding: 1%;
+  line-height: 40px;
+  margin-bottom: -1px;
+  cursor: pointer;
+  font-size: large;
+}
+
+.name {
+  font-weight: bold;
+}
